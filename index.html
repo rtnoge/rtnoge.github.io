@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <!-- <link rel="icon" href="dist/img/favicon.png" type="image/x-icon" /> -->
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="dist/css/styles.css" />
+
+  <title>Retno Dewi | Portfolio Page</title>
+</head>
+
+<body>
+  <!--=============== HEADER PROFILE ===============-->
+  <header class="profile container">
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <img src="dist/img/picture.png" alt="" />
+          </div>
+        </div>
+        <h2 class="profile__name">Retno Dewi</h2>
+        <h3 class="profile__profession">
+          Mobile Developer
+        </h3>
+
+        <ul class="profile__social">
+          <a href="https://dribbble.com/rtcodink" target="_blank" class="profile__social-link">
+            <i class="ri-dribbble-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rtnoge/" target="_blank" class="profile__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://github.com/rtnoge" target="_blank" class="profile__social-link">
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+      </div>
+      <div class="profile__info grid">
+        <div class="profile__info-group">
+          <p class="profile__info-description">
+            I just started my career as a Mobile Developer (Flutter & React Native), and I'm also learning about UI Design and Website Designer.
+            Feel free to take a look at my projects on my portfolio website.
+          </p>
+        </div>
+      </div>
+      <div class="profile__buttons">
+        <a download="" href="dist/pdf/cv.pdf" class="button">
+          Download CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="profile__buttons-small">
+          <a href="mailto:rtno.stta@gmail.com" target="_blank" class="button button__small button__grey">
+            <i class="ri-mail-line"></i>
+          </a>
+          <a href="https://t.me/rtnoge" target="_blank" class="button button__small button__grey">
+            <i class="ri-telegram-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <section class="filters container">
+      <!--=============== FILTERS TABS ===============-->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters__button" data-target="#skills">Skills</button>
+      </ul>
+
+      <div class="filters__sections">
+        <!--=============== PROJECTS ===============-->
+        <div class="projects__content grid filters__active" data-content id="projects">
+          <article class="projects__card">
+            <img src="dist/img/project_1.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Design</span>
+                <h3 class="projects__title">Password Generator</h3>
+                <a href="https://dribbble.com/shots/17442116-Random-Password-Generator" target="_blank" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="dist/img/project_2.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Design</span>
+                <h3 class="projects__title">Recipe App</h3>
+                <a href="https://dribbble.com/shots/19646091-Resep-Mama-Uli-App" target="_blank" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!--=============== SKILLS ===============-->
+        <div class="skills__content grid" data-content id="skills">
+          <div class="skills__area">
+            <h3 class="skills__title">Language</h3>
+
+            <div class="skills__box">
+              <div class="skills_group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Beginner</span>
+                  </div>
+                </div>
+                
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Java Android</h3>
+                    <span class="skills__level">Beginner</span>
+                  </div>
+                </div>
+                <!-- Boundary to the first line -->
+              </div>
+
+              <div class="skills_group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Javascript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Dart</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Swift UI</h3>
+                    <span class="skills__level">Beginner</span>
+                  </div>
+                </div>
+                <!-- Boundary to the second line -->
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__area">
+            <h3 class="skills__title">Framework & Tools</h3>
+
+            <div class="skills__box">
+              <div class="skills_group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Flutter</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills_group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">React Native</h3>
+                    <span class="skills__level">Beginner</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Tailwind</h3>
+                    <span class="skills__level">Beginner</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Adobe XD</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy">
+      &#169 Bedimcode. All rights reserved
+    </span>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="dist/js/scrollreveal.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="dist/js/main.js"></script>
+</body>
+
+</html>
